@@ -1,0 +1,13 @@
+{
+  "name": "next-canonical-guard",
+  "version": "0.1.0",
+  "description": "Fails the build when a Next.js App Router layout sets a canonical that every page silently inherits.",
+  "type": "module",
+  "bin": { "next-canonical-guard": "bin/next-canonical-guard.js" },
+  "exports": { ".": "./src/check.js" },
+  "files": ["bin", "src", "examples"],
+  "scripts": { "test": "node --test test/" },
+  "engines": { "node": ">=18" },
+  "keywords": ["nextjs", "seo", "canonical", "app-router", "metadata", "lint"],
+  "license": "MIT"
+}
